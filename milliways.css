@@ -1,0 +1,107 @@
+/* Pink = #CD29B2 */
+
+/* Body defaults */
+body
+{
+background-color: black;
+color: white;
+font-family: 'Trebuchet MS', Tahoma, sans-serif;
+}
+
+/* Div wrapper to center content on browser window */
+#wrap
+{
+width: 670px;
+margin: 0 auto;
+}
+
+header
+{
+overflow: auto
+}
+
+#menubar
+{
+text-align: right;
+width: 215px;
+float: left;
+padding-left: 5px;
+}
+
+/* Menu bar formatting and layout */
+#menubar ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+list-style-image: none;
+}
+
+#menubar li
+{
+display: list-item;
+list-style: none
+}
+
+#menubar li a
+{
+display: block;
+padding: 3px 20px;
+color: white;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+#menubar li a:hover
+{
+background: #CD29B2;
+color: #FFF;
+}
+
+#current
+{
+background: #CD29B2;
+color: #CD29B2;
+}
+
+/* Main text */
+#mt
+{
+font-size: 0.8em;
+padding: 1px 20px;
+border-left-style: solid;
+border-width: 7px;
+border-color: #CD29B2
+}
+
+/* Footer */
+footer
+{
+font-size: 0.8em;
+text-align: center;
+}
+
+/* Classes */
+.logo
+{
+float: left;
+width: 450px;
+height: 287px;
+}
+
+.lineround
+{
+border: 7px solid #CD29B2;
+border-left-width: 0;
+-webkit-border-radius: 0 30px 30px 0;
+-moz-border-radius: 0 30px 30px 0;
+-o-border-radius: 0 30px 30px 0;
+-ms-border-radius: 0 30px 30px 0;
+border-radius: 0 30px 30px 0;
+}
+
+h1
+{
+padding-left: 20px;
+margin: 0;
+}
